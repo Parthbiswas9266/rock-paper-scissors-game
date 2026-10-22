@@ -2,11 +2,11 @@
 
 A clean, interactive, and responsive web-based **Rock-Paper-Scissors Game** built to practice fundamental frontend development skills. 
 
-⚡ **[Live Preview Available Here](https://parthbiswas9266.github.io/rock-paper-scissors-game/)**
+**[Live Preview Available Here](https://parthbiswas9266.github.io/rock-paper-scissors-game/)**
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Interactive Gameplay:** Play against a smart computer opponent in real-time.
 * **Instant Score Tracking:** Automatically tracks user and computer scores during the session.
@@ -15,17 +15,17 @@ A clean, interactive, and responsive web-based **Rock-Paper-Scissors Game** buil
 
 ---
 
-## 🛠️ Tech Stack & Skills Practiced
+## Tech Stack & Skills Practiced
 
 | Technology | Implementation Details |
 | :--- | :--- |
-| **HTML5** | Structured the semantic layout, game buttons, and score displays. |
-| **CSS3** | Styled modern UI cards, hover animations, responsive flexbox layouts, and custom fonts. |
-| **JavaScript (ES6+)** | Managed game logic, generated random computer choices, handled event listeners, and updated DOM elements dynamically. |
+| **HTML** | Structured the semantic layout, game buttons, and score displays. |
+| **CSS** | Styled modern UI cards, hover animations, responsive flexbox layouts, and custom fonts. |
+| **JavaScript** | Managed game logic, generated random computer choices, handled event listeners, and updated DOM elements dynamically. |
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── Images/          # Asset folder containing game illustrations/icons
@@ -37,7 +37,7 @@ A clean, interactive, and responsive web-based **Rock-Paper-Scissors Game** buil
 
 ---
 
-## 📝 How to Play
+## How to Play
 
 1. Open the **[Live Link](https://parthbiswas9266.github.io/rock-paper-scissors-game/ )** in your browser.
 2. Select your choice by clicking on the **Rock**, **Paper**, or **Scissors** button.
