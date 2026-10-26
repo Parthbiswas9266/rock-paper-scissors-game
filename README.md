@@ -4,9 +4,9 @@ A clean, interactive, and responsive web-based **Rock-Paper-Scissors Game** buil
 
 **[Live Preview Available Here](https://parthbiswas9266.github.io/rock-paper-scissors-game/)**
 
-![Image1](Images/Screenshot 2026-10-26 202859.png)
+<img src ="Images/Screenshot 2026-10-26 202859.png">
 
-![Image2](Images/Screenshot 2026-10-26 203008.png)
+<img src ="Images/Screenshot 2026-10-26 203008.png">
 
 ---
 
