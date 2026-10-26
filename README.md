@@ -1,52 +1,92 @@
-# Rock-Paper-Scissors Game
+# Rock Paper Scissors
 
-A clean, interactive, and responsive web-based **Rock-Paper-Scissors Game** built to practice fundamental frontend development skills. 
+A browser-based implementation of the classic Rock Paper Scissors game, built with HTML, CSS, and vanilla JavaScript.
 
-**[Live Preview Available Here](https://parthbiswas9266.github.io/rock-paper-scissors-game/)**
+**[Live Demo](https://parthbiswas9266.github.io/rock-paper-scissors-game/)**
 
-<img src ="Images/Screenshot 2026-10-26 202859.png">
+## Screenshots
 
-<img src ="Images/Screenshot 2026-10-26 203008.png">
+### Game Interface
 
----
+![Rock Paper Scissors game interface](Images/Screenshot%202026-10-26%20202859.png)
+
+### Gameplay
+
+![Rock Paper Scissors gameplay showing the game result](Images/Screenshot%202026-10-26%20203008.png)
 
 ## Features
 
-* **Interactive Gameplay:** Play against a smart computer opponent in real-time.
-* **Instant Score Tracking:** Automatically tracks user and computer scores during the session.
-* **Responsive Design:** Optimized to look great and work smoothly on both desktop monitors and mobile devices.
-* **Dynamic Animations:** Clean visual transitions and feedback for wins, losses, and ties.
+- Play against a computer that randomly selects its move.
+- Track player and computer scores across rounds.
+- Receive immediate feedback for wins, losses, and draws.
+- Interactive choice elements with hover styling.
+- Lightweight implementation with no external libraries or build tools.
 
----
+## Built With
 
-## Tech Stack & Skills Practiced
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure and game elements |
+| CSS3 | Layout, styling, and visual feedback |
+| JavaScript | Game logic, random move generation, event handling, and DOM updates |
 
-| Technology | Implementation Details |
-| :--- | :--- |
-| **HTML** | Structured the semantic layout, game buttons, and score displays. |
-| **CSS** | Styled modern UI cards, hover animations, responsive flexbox layouts, and custom fonts. |
-| **JavaScript** | Managed game logic, generated random computer choices, handled event listeners, and updated DOM elements dynamically. |
+## How to Play
 
----
+1. Open the [live demo](https://parthbiswas9266.github.io/rock-paper-scissors-game/).
+2. Select Rock, Paper, or Scissors.
+3. The computer randomly selects its move.
+4. The result is displayed, and the scores are updated accordingly.
+5. Continue playing as many rounds as you like.
+
+## Run Locally
+
+No installation or build process is required.
+
+```bash
+git clone https://github.com/Parthbiswas9266/rock-paper-scissors-game.git
+cd rock-paper-scissors-game
+```
+
+Open `index.html` in your browser to start playing.
 
 ## Project Structure
 
 ```text
-├── Images/          # Asset folder containing game illustrations/icons
-├── index.html       # Primary structural layout
-├── style.css        # Visual styling and responsive media queries
-├── script.js        # Core game logic and DOM interaction
-└── README.md        # Documentation
+rock-paper-scissors-game/
+├── Images/
+│   ├── rock.png
+│   ├── paper.png
+│   └── scissors.png
+├── index.html
+├── style.css
+└── script.js
 ```
 
+## Implementation
+
+The project uses a straightforward separation of concerns:
+
+- **HTML** defines the game interface, choice elements, score displays, and result message.
+- **CSS** controls the layout, appearance, and hover effects.
+- **JavaScript** generates the computer's move, evaluates each round, updates the scores, and displays the result through DOM manipulation.
+
+The game runs entirely in the browser. Scores are maintained during the current page session and are not persisted after a page reload.
+
+## Learning Outcomes
+
+This project was built as part of my ongoing frontend development practice. It provided hands-on experience with:
+
+- JavaScript functions and conditional logic.
+- Random number generation.
+- DOM selection and manipulation.
+- Event listeners and user interactions.
+- Updating application state and reflecting changes in the UI.
+- Separating HTML, CSS, and JavaScript into individual files.
+
+## Project Status
+
+The initial version is complete and serves as a practical exercise in core frontend development fundamentals.
+
 ---
 
-## How to Play
-
-1. Open the **[Live Link](https://parthbiswas9266.github.io/rock-paper-scissors-game/ )** in your browser.
-2. Select your choice by clicking on the **Rock**, **Paper**, or **Scissors** button.
-3. The computer will instantly make a random selection.
-4. The game will immediately display the winner of the round and update the score counter.
-
----
-*Built as a personal frontend practice project to master DOM manipulation and state management in JavaScript.*
+Built as a personal learning project.
